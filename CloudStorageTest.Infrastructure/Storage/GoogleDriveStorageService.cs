@@ -18,7 +18,7 @@ public class GoogleDriveStorageService : IStorageService
 
     public string Upload(IFormFile file, User user)
     {
-        var credential = new UserCredential(null, user.Email, new TokenResponse
+        var credential = new UserCredential(_authorization, user.Email, new TokenResponse
         {
             AccessToken = user.AccessToken,
             RefreshToken = user.RefreshToken

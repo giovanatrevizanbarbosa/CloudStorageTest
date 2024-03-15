@@ -34,7 +34,9 @@ public class UploadProfilePhotoUseCase : IUploadProfilePhotoUseCase
         {
             Id = 1,
             Name = "Giovana",
-            Email = "gi.trevizan.barbosa@gmail.com"
+            Email = "gi.trevizan.barbosa@gmail.com",
+            RefreshToken = "1//04rp8qFOyM5arCgYIARAAGAQSNwF-L9Ir0yfB-LZWEV850Vm4p7iTv3CLGHnapnnnJmp_60y4sbN2yG8qVh8LfP6KTLaHAhxw0h0",
+            AccessToken = "ya29.a0Ad52N38LWvnNTFoT0JP-C41aZ5yhcdktU_F4WU69AbwKIMBAiIsSL6UgRbrZP67amL6Z10bYNjISvpklA7qIM9FGv6RQYjpH7Qzg7xNwBJnCiAFhnVEVU7CoziPwZtG5IR-S5rsWhdfdZ8d6EiiDVC1xBD4xz0b50gHDaCgYKAesSARMSFQHGX2MiziUaFvJjvCr25pW9PBLNpA0171"
         };
     }
 }
